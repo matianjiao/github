@@ -1,0 +1,329 @@
+body{
+	margin: 0px;
+	font:  13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+	/*font-family: "微软雅黑";*/
+	min-width: 980px;
+}
+a{
+	color:#4078c0; 
+}
+a:hover{
+	text-decoration: underline;
+}
+h1,h2,h3,h4,h5,h6,ul,p,li {
+	margin: 0px;
+	padding:0px; 
+	list-style: none;
+	/*使用ul li 是去掉小圆点*/
+}
+.section{
+	padding: 80px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.container{
+	margin: 0 auto;
+	width: 980px;
+	position: relative;
+	/*border: 1px solid pink;*/
+}
+.sub-title{
+	font-size: 42px;
+	text-align: center;
+	font-weight: normal;
+
+}
+/*T0D0:待优化*/
+.btn{
+	text-align: center;
+	color: #f5f5f5;
+	font-size: 18px;
+	border-radius: 6px;
+	/*border: 1px solid #f5f5f5;*/
+}
+span{
+	padding: 12px 20px;
+	display: inline-block;
+}
+/*------头部------*/
+.header{
+	padding:15px 0;
+	background: #f5f5f5;
+
+}
+.logo{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.logo:hover{
+	color: #4078c0;
+}
+.search{
+	width: 360px;
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+	padding-left: 15px;
+	font-size: 12px;
+	color: #ccc;
+	margin-right: 15px;
+}
+.h-c{
+	height: 28px;
+	line-height: 28px;
+
+}
+.list{
+	float: left;
+
+}
+.list li{
+	float: left;
+	padding-right: 8px;
+	font-size: 13px;
+	font-weight:normal;
+}
+.list li:hover{
+	color: #4078c0;
+}
+.signin,.signup{
+	width: 49px;
+	height: 20px;
+	float: right;
+	color: #ccc;
+	border: 1px solid #ccc;
+	border-radius:5px; 
+	font-size:13px; 
+	padding: 6px 12px;
+	text-align: center;
+	line-height:20px; 
+	margin-top: -3px;
+}
+.signin{
+	color: black;
+	margin-left: 10px;
+    background-image: linear-gradient(#fcfcfc, #eee);
+}
+.signin:hover{
+	background-image: linear-gradient( #F2F1F1,#E2DBDB);
+
+}
+.signup{
+	color: #fff;
+	  background-image: linear-gradient(#8add6d, #60b044);
+}
+.signup:hover{
+	  background-image: linear-gradient(#79d858, #569e3d);
+}
+
+
+
+
+/*---------第一部分---------*/
+.main{
+    border-bottom: none;
+	background: #202020 url("../img/2.png")center repeat;
+}
+/*T0D0:待优化(浮动的收缩问题)*/
+.main-c{
+	height: 351px;
+}
+.main-intro{
+	width: 620px;
+	color: #f5f5f5;
+	/*border:1px solid white;*/
+	float: left;
+
+}
+.title{
+	 
+	padding-top:10px;
+	margin-bottom: 15px;
+	font-size:70px;
+}
+.main-intro p{
+	font-size: 21px;
+	line-height: 1.5em;
+}
+.signup-form{
+	width: 320px;
+	height: 351px;
+	/*border:1px solid white;*/
+	float: right;
+
+}
+.xiao{
+	height: 22px;
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #f5f5f5;
+	border-radius: 5px;
+	color: #aaa;
+}
+.signup-form h6{
+	color:#767676;
+	font-size: 13px;
+	margin: 5px 0 13px;
+	font-weight: normal;
+}
+
+.blue{
+	/*color: white;*/
+	  background-image: linear-gradient(#8add6d, #60b044);
+}
+.blue:hover{
+	 background-image: linear-gradient(#79d858, #569e3d);
+}
+
+
+/*-------第二部分----------*/
+
+.enterprise{
+	height: 215px;
+	overflow: hidden;
+	background-image: linear-gradient(#202d5f, #614381); 
+}
+/*后代选择器*/
+.enterprise h2{
+	color:#f5f5f5;
+}
+.t{
+	text-align: center;
+}
+.btn-blue{
+	/*width: 346px;*/
+	display: inline-block;
+	/*padding: 12px 30px;*/
+	/*margin: 15px auto;*/
+	background-image: linear-gradient(#45b3f3, #1d6ac8); 
+}
+.btn-blue:hover{
+	background-image: linear-gradient(#51A7D8,#369AD3); 	
+}
+.hui{
+	width: 100%;
+	position: absolute;
+	top:265px;
+	z-index:10;
+	height: 30px;
+	background-image: linear-gradient(transparent, rgba(0,0,0,0.15));
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.25);
+}
+
+
+/*---------第三部分----------*/
+.love{
+	width: 450px;
+	height: 195px;
+	float: left;
+	text-align: center;
+	padding: 20px 15px 40px;
+
+}
+.love1{
+	height: 636px;
+}
+.sub-info{
+	color: #767676;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+.img{
+	margin: 30px auto 20px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #e5e5e5;
+	border-radius: 50%;
+}
+.love h3{
+	width: 450px;
+	height: 23px;
+	color: #333;
+	font-size: 21px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.love p{
+	width: 405px;
+	height: 42px;
+	color: #5a5a5a;
+	font-size: 14px;
+	margin: 0 auto;
+}
+.fang{
+	width: 60px;
+	height: 60px;
+	margin: 20px auto;
+
+}
+
+/*---------第四部分--------*/
+.gh-image{
+	width: 100%;
+	margin-top: 30px;
+}
+
+.btn-green{
+	/*width: 288px;*/
+	/*margin: 15px auto 0;*/
+	background-image: linear-gradient(#8add6d, #60b044);
+	display: inline-block;
+}
+.btn-green:hover{
+	 background-image: linear-gradient(#79d858, #569e3d);
+}
+.h3{
+	font-size: 21px;
+    font-weight: normal;
+	height: 23px;
+	text-align: center;
+	padding: 35px;
+}
+
+
+/*--------底部---------*/
+.left,.you{
+	width: 600px;
+	height: 18px;
+/*	margin-bottom: 40px;*/
+}
+.left{
+	float: left;
+}
+.you{
+	width: 300px;
+	float: right;
+	/*position: absolute;
+	top:0px;
+	right: 0px;*/
+
+}
+.teli{
+	margin-right:150px;
+}
+.ll{
+	float: left;
+	padding-right: 10px;
+	font-size: 12px;
+}
+.l{
+	float: right;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.con{
+	height: 18px;
+	/*position: relative;*/
+	margin: 30px auto;
+}
+.mao{
+	opacity: 0.3;
+	margin:-4px; 
+}
+.mao:hover{
+	opacity: 0.6;
+}
